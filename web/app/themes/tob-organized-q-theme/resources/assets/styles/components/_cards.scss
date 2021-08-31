@@ -9,3 +9,10 @@
         min-height: 233px;
     }
 }
+
+.card-services {
+    min-width: 197px;
+    min-height: 149px;
+    box-shadow: 0px 0px 20px 0px rgba(250, 236, 235, 1);
+    @apply flex items-center justify-center text-center;
+}
