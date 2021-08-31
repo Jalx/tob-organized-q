@@ -99,10 +99,78 @@
 
     <div class="front-page-section">
         <div class="grid grid-cols-12 gap-5">
-            <div class="col-span-10">
-                <span>Who We Help</span>
+            <div class="col-span-10 col-start-2 text-center">
+                <span>Our Services</span>
+                <h2>Top-notch virtual executive assistant services tailored to your needs.</h2>
+                <p>Organized Q provides the following services:</p>
             </div>
-            
+            <div class="flex col-span-8 col-start-3">
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-5 gap-y-6 w-full">
+                    <div class="card-services">
+                        <div>
+                            <img
+                                src="@php echo get_template_directory_uri(); @endphp/assets/images/icons/management.svg"
+                                class="mx-auto mb-1"
+                            >
+                            <span>Management</span>
+                        </div>
+                    </div>
+                    <div class="card-services">
+                        <div>
+                            <img
+                                src="@php echo get_template_directory_uri(); @endphp/assets/images/icons/management.svg"
+                                class="mx-auto mb-1"
+                            >
+                            <span>Management</span>
+                        </div>
+                    </div>
+                    <div class="card-services">
+                        <div>
+                            <img
+                                src="@php echo get_template_directory_uri(); @endphp/assets/images/icons/management.svg"
+                                class="mx-auto mb-1"
+                            >
+                            <span>Management</span>
+                        </div>
+                    </div>
+                    <div class="card-services">
+                        <div>
+                            <img
+                                src="@php echo get_template_directory_uri(); @endphp/assets/images/icons/management.svg"
+                                class="mx-auto mb-1"
+                            >
+                            <span>Management</span>
+                        </div>
+                    </div>
+                    <div class="card-services">
+                        <div>
+                            <img
+                                src="@php echo get_template_directory_uri(); @endphp/assets/images/icons/management.svg"
+                                class="mx-auto mb-1"
+                            >
+                            <span>Management</span>
+                        </div>
+                    </div>
+                    <div class="card-services">
+                        <div>
+                            <img
+                                src="@php echo get_template_directory_uri(); @endphp/assets/images/icons/management.svg"
+                                class="mx-auto mb-1"
+                            >
+                            <span>Management</span>
+                        </div>
+                    </div>
+                    <div class="card-services">
+                        <div>
+                            <img
+                                src="@php echo get_template_directory_uri(); @endphp/assets/images/icons/management.svg"
+                                class="mx-auto mb-1"
+                            >
+                            <span>Management</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 
