@@ -1,0 +1,11 @@
+.bg-front-page {
+    background-color: #000000;
+}
+
+.front-page-section {
+	@apply mb-24;
+    @screen xxl {
+		margin-left: 200px;
+		margin-right: 200px;
+	}
+}

@@ -1,0 +1,11 @@
+.perks {
+    min-width: 236px;
+    min-height: 225px;
+    background-color: #FFFFFF;
+    @apply z-50 relative;
+
+    @screen md {
+        min-width: 245px;       
+        min-height: 233px;
+    }
+}

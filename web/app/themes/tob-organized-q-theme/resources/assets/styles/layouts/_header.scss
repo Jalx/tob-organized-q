@@ -1,0 +1,47 @@
+.banner {
+	
+}
+
+.banner .nav {
+	@apply list-none p-0 flex flex-wrap;
+}
+
+.banner nav {
+	@screen md {
+		margin-top: 20px;
+	}
+	@screen xxl {
+		margin-top: 58px;
+	}
+	@screen xxl {
+		margin-left: 200px;
+		margin-right: 200px;
+	}
+}
+
+.banner .nav a {
+	@apply inline-block px-4 py-2 border-none;
+
+	&:hover {
+		color: darken(#525ddc, 30%);
+	}
+}
+
+.site-header {
+	top: 0;
+	left: 0;
+	position: relative;
+}
+
+.site-header img {
+	clip-path: polygon(0 0, 100% 0%, 100% 100%, 22% 100%);
+}
+
+#site-header-title {
+	@screen md {
+		margin-left: 5%;
+	}
+	@screen xxl {
+		margin-left: 200px;
+	}
+}
