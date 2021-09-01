@@ -174,6 +174,56 @@
         </div>
     </div>
 
+    <div class="front-page-section">
+        <div class="grid grid-cols-12 gap-5">
+            <div class="col-span-10 col-start-2 text-center">
+                <span>Social Proof</span>
+                <h2>Don't just take our work for it.</h2>
+                <p>See what the results say</p>
+            </div>
+        </div>
+        <div class="grid grid-cols-12 gap-5">
+            <div class="col-span-10 col-start-2 md:col-span-5 md:col-start-2 text-center">
+                <div class="card-customer-result">
+
+                </div>
+            </div>
+            <div class="col-span-10 col-start-2 md:col-span-5 text-center">
+                <div class="card-customer-result card-customer-result-info">
+                    <p
+                        style="border-bottom: 3px solid white; padding-bottom: 14px;">We are dedicated to providing flexible professional opportunities for other military spouses and family members
+                    </p>
+                    <div class="flex flex-col px-5">
+                        <div class="flex">
+                            <div class="w-5/12 text-right">
+                                <span class="card-customer-result-info-number">+1000</span>
+                            </div>
+                            <div class="w-7/12 ml-5 flex items-center">
+                                <span class="card-customer-result-info-label">Military Families Impacted</span>
+                            </div>
+                        </div>
+                        <div class="flex">
+                            <div class="w-5/12 text-right">
+                                <span class="card-customer-result-info-number">+1000</span>
+                            </div>
+                            <div class="w-7/12 ml-5 flex items-center">
+                                <span class="card-customer-result-info-label">Projects</span>
+                            </div>
+                        </div>
+                        <div class="flex">
+                            <div class="w-5/12 text-right">
+                                <span class="card-customer-result-info-number">%100</span>
+                            </div>
+                            <div class="w-7/12 ml-5 flex items-center">
+                                <span class="card-customer-result-info-label">ROI Recovered</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
         {{-- @if (!have_posts())
         <div class="alert alert-warning">
         {{ __('Sorry, no results were found.', 'sage') }}
