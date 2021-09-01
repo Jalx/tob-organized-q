@@ -9,3 +9,26 @@
 		margin-right: 200px;
 	}
 }
+
+.front-page-section-wide {
+}
+
+// Responsive margins for custom sections
+@responsive {
+	.fp-ml {
+		margin-left: 200px;
+	}
+	.fp-mr {
+		margin-right: 200px;
+	}
+}
+
+.front-page-section-img {
+	@screen md {
+		width: 796px;
+		height: 490px ;
+		object-fit: cover;
+		object-position: bottom;
+		clip-path: polygon(14% 0%, 100% 0, 100% 100%, 0% 100%);
+	}
+}
