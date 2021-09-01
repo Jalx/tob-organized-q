@@ -224,6 +224,30 @@
         </div>
     </div>
 
+    <div class="front-page-section-wide lg:fp-ml">
+        <div class="grid grid-cols-12 gap-5">
+            <div class="col-span-10 col-start-2 md:col-span-5 text-left">
+                <div>
+                    <span>Who we help?</span>
+                    <h2>Working with us could be for you!.</h2>
+                    <p>Organized Q was founded and created by a highly educated and experienced Military Spouse who found a need to utilize her skills to help others organize and manage their business tasks.</p>
+                    <a href="#">Request Information</a>
+                </div>
+            </div>
+            <div class="col-span-10 col-start-2 md:col-span-7 text-center">
+                <img
+                    src="@php echo get_template_directory_uri(); @endphp/assets/images/paige-cody-working-for-us.png"
+                    class="front-page-section-img"
+                >
+            </div>
+        </div>
+    </div>
+
+    <div class="front-page-section-wide lg:fp-ml">
+        <div class="grid grid-cols-12 gap-5">
+        </div>
+    </div>
+
         {{-- @if (!have_posts())
         <div class="alert alert-warning">
         {{ __('Sorry, no results were found.', 'sage') }}
