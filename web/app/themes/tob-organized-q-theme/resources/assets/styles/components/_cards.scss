@@ -16,3 +16,34 @@
     box-shadow: 0px 0px 20px 0px rgba(250, 236, 235, 1);
     @apply flex items-center justify-center text-center;
 }
+
+.card-customer-result {
+    min-width: 276px;       
+    min-height: 412px;
+    border-radius: 4px;
+    @screen md {
+        min-width: 422px;
+        min-height: 358px;
+    }
+}
+
+.card-customer-result-gallery {
+    
+}
+
+.card-customer-result-info {
+    color: #FFFFFF;
+    background-color: #9A9A9A;
+    @apply py-10 px-9 text-left;
+    .card-customer-result-info-number {
+        font-size: 35px;
+        letter-spacing: 2px;
+    }
+    .card-customer-result-info-label {
+        text-transform: uppercase;
+        font-size: 14px;
+        font-weight: bold;
+        letter-spacing: 1px;
+        color: #000000;
+    }
+}
