@@ -18,7 +18,8 @@
 }
 
 .card-customer-result {
-    min-width: 276px;       
+    @apply pt-10;
+    min-width: 250px;       
     min-height: 412px;
     border-radius: 4px;
     @screen md {
@@ -34,7 +35,9 @@
 .card-customer-result-info {
     color: #FFFFFF;
     background-color: #9A9A9A;
-    @apply py-10 px-9 text-left;
+    @screen md {
+        @apply py-10 px-9 text-left;
+    }
     .card-customer-result-info-number {
         font-size: 35px;
         letter-spacing: 2px;
