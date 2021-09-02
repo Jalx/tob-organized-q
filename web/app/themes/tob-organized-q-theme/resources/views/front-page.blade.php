@@ -374,4 +374,51 @@
         </div>
     </div>
 
+    <div class="front-page-section-wide lg:fp-mr">
+        <div class="grid grid-cols-12 gap-5">
+            <div class="col-span-10 md:col-span-8 text-left">            
+                <img
+                    src="@php echo get_template_directory_uri(); @endphp/assets/images/military-family.png"
+                    class="front-page-section-img-r-clip"
+                >
+            </div>
+            <div class="col-span-10 col-start-2 md:col-start-9 md:col-span-4 text-left flex items-center">
+                <div>
+                    <div class="front-page-section-tag">
+                        <span>Who We Help?</span>
+                    </div>
+                    <h2 class="front-page-section-header pt-4 pb-6">Supports Military Spouses & Veterans<span class="front-page-section-header-tomato">.</span></h2>
+                    <a class="btn-cta mt-10" href="#" class="btn-cta">Support Now</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="front-page-section-wide fp-bg-grey-to-transparent flex flex-wrap content-center "
+        style="
+        background-image:
+        linear-gradient(80deg, #000000 0% 40%, transparent 40% 100%)
+        "
+    >
+        <div class="lg:fp-pr bg-q-img-center fp-bg-grey"
+            style="background-image: url('@php echo get_template_directory_uri(); @endphp/assets/images/icons/big-Q.svg');"
+        >
+        <div class="grid grid-cols-12 gap-5">
+            <div class="col-span-10 md:col-span-7 flex items-center">
+                <img
+                    src="@php echo get_template_directory_uri(); @endphp/assets/images/your-time.png"
+                    class="front-page-section-img-r-clip-bottom"
+                >
+            </div>
+            <div class="col-span-10 col-start-2 md:col-start-9 md:col-span-4 text-left flex items-center">
+                <div>
+                    <h2 class="front-page-section-header text-white">Ready to get back the time you deserve<span class="front-page-section-header-tomato">?</span> </h2>
+                    <p class="bullet-title">Let us help you to reduce the volume of work left undone in your organization. Use our virtual team members to help your organization climb higher.</p>
+                    <a href="#" class="btn-cta">Get Started</a>
+                </div>
+            </div>
+        </div>
+        </div>
+    </div>
+
 @endsection

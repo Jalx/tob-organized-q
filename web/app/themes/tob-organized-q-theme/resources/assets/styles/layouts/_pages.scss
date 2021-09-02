@@ -16,6 +16,9 @@
 .fp-bg-black {
 	background-color: $black-color;
 }
+.fp-bg-grey-to-transparent {
+	background-image: linear-gradient(80deg, #000000 0% 16%, transparent 16% 100%);
+}
 
 .front-page-section-wide {
 	@screen md {
@@ -46,6 +49,26 @@
 		object-fit: cover;
 		object-position: bottom;
 		clip-path: polygon(14% 0%, 100% 0, 100% 100%, 0% 100%);
+	}
+}
+
+.front-page-section-img-r-clip {
+	@screen md {
+		width: 796px;
+		height: 490px ;
+		object-fit: cover;
+		object-position: bottom;
+		clip-path: polygon(0% 0%, 100% 0, 86% 100%, 0% 100%);
+	}
+}
+
+.front-page-section-img-r-clip-bottom {
+	@screen md {
+		width: 796px;
+		height: 490px ;
+		object-fit: cover;
+		object-position: bottom;
+		clip-path: polygon(0% 0%, 86% 0, 100% 100%, 0% 100%);
 	}
 }
 
@@ -141,5 +164,17 @@
 	object-position: center;
     background-repeat: no-repeat;
     background-position-x: 396px;
+    background-position-y: center;
+}
+.bg-q-img-center {
+	object-position: center;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center;
+}
+.bg-q-img-ltr {
+	object-position: center;
+    background-repeat: no-repeat;
+    background-position-x: 655px;
     background-position-y: center;
 }
