@@ -10,7 +10,17 @@
 	}
 }
 
+.fp-bg-grey {
+	background-color: $grey-color;
+}
+.fp-bg-black {
+	background-color: $black-color;
+}
+
 .front-page-section-wide {
+	@screen md {
+		min-height: 490px;
+	}
 }
 
 // Responsive margins for custom sections
@@ -20,6 +30,12 @@
 	}
 	.fp-mr {
 		margin-right: 200px;
+	}
+	.fp-pl {
+		padding-left: 200px;
+	}
+	.fp-pr {
+		padding-right: 200px;
 	}
 }
 
@@ -31,4 +47,99 @@
 		object-position: bottom;
 		clip-path: polygon(14% 0%, 100% 0, 100% 100%, 0% 100%);
 	}
+}
+
+.front-page-section-tag {
+	@apply px-4 p-0.5 mb-5 text-center;
+	background-color: #000000;
+	text-transform: uppercase;
+	min-height: 21px;
+	width: 168px;
+	// min-width: 168px;
+	color: #ffffff;
+	// font-family: 'museo';
+}
+
+.front-page-section-header {
+	color: $black-color;
+	@apply mt-3 mb-5;
+	// font-family: 'brandon';
+	font-weight: bold;
+	font-size: 40px;
+}
+.front-page-section-header-tomato {
+	color: $tomato-color;
+	// font-family: 'brandon';
+	font-weight: bold;
+	font-size: 40px;
+}
+.front-page-section-subtitle {
+	color: $black-color;
+	@apply  mt-3 mb-2;
+	// font-family: 'brandon';
+	font-size: 18px;
+}
+
+.front-page-section-copy {
+	color: $grey-color;
+	letter-spacing: 1px;
+	// font-family: 'brandon';
+	font-size: 18px;
+}
+
+.btn-cta {
+	background-color: $tomato-color;
+	@apply text-center pt-3 pb-2 block;
+	border-radius: 4px;
+	color: white;
+	width: 202px;
+	height: 45px;
+}
+
+.btn-cta-white {
+	@apply text-center pt-3 pb-2 block;
+	background-color: white;
+	border-radius: 4px;
+	color: $grey-color;
+	width: 202px;
+	height: 45px;
+}
+
+.bullet-number {
+	// font-family: 'museo';
+	font-size: 25px;
+	font-weight: 700;
+	letter-spacing: 2px;
+	color: white;
+}
+
+.bullet-title {
+	// font-family: 'brandom';
+	font-size: 18px;
+	font-weight: bold;
+	color: white;
+	letter-spacing: 2px;
+}
+
+.copy {
+	// font-family: 'brandom';
+	font-size: 1rem;
+	font-weight: normal;
+}
+
+.bullet-copy {
+	// font-family: 'brandom';
+	font-size: 1rem;
+	font-weight: normal;
+	color: white;
+	letter-spacing: 1px;
+}
+
+// Backgrounds
+.bg-q-img {
+	
+	object-position: center;
+    background-repeat: no-repeat;
+    background-position-x: 396px;
+    background-position-y: center;
 }
