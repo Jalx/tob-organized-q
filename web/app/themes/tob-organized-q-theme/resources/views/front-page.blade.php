@@ -394,6 +394,29 @@
         </div>
     </div>
 
+    <div class="front-page-section">
+        <div class="grid grid-cols-6 gap-5 pt-28 pb-4">
+            <div class="m-auto">
+                <img src="@php echo get_template_directory_uri(); @endphp/assets/images/icons/partners/dvsv3-logo 1.png');" alt="">
+            </div>
+            <div class="m-auto">
+                <img src="@php echo get_template_directory_uri(); @endphp/assets/images/icons/partners/image 5.png');" alt="">
+            </div>
+            <div class="m-auto">
+                <img src="@php echo get_template_directory_uri(); @endphp/assets/images/icons/partners/image 6.png');" alt="">
+            </div>
+            <div class="m-auto">
+                <img src="@php echo get_template_directory_uri(); @endphp/assets/images/icons/partners/image 7.png');" alt="">
+            </div>
+            <div class="m-auto">
+                <img src="@php echo get_template_directory_uri(); @endphp/assets/images/icons/partners/image 8.png');" alt="">
+            </div>
+            <div class="m-auto">
+                <img src="@php echo get_template_directory_uri(); @endphp/assets/images/icons/partners/image 9.png');" alt="">
+            </div>
+        </div>
+    </div>
+
     <div class="front-page-section-wide fp-bg-grey-to-transparent flex flex-wrap content-center "
         style="
         background-image:
