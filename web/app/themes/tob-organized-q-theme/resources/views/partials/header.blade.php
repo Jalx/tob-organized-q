@@ -12,7 +12,7 @@
                         @endphp
                     </a>
                 </div>
-                <div class="z-50">
+                <div class="z-50 hidden md:flex">
                     @if (has_nav_menu('primary_navigation'))
                         {!! wp_nav_menu(
                             [
@@ -25,14 +25,14 @@
             </div>
         </nav>
     </div>
-    <div>
+    <div class="">
         {{-- <div class="flex flex-col text-white relative z-50">
             
         </div> --}}
         @if (get_header_image())
-        <div id="site-header" class="site-header flex justify-end w-full bg-front-page flex items-center">
-            <div id="site-header-title" class="flex flex-col text-white relative z-50">
-                <span>Virtual Executive Assistant services</span>
+        <div id="site-header" class="site-header flex flex-col md:flex-row justify-end items-center w-full bg-front-page">
+            <div id="site-header-title" class="w-full md:w-5/12 flex flex-col text-white relative z-50 order-2 md:order-1">
+                <span class="">Virtual Executive Assistant services</span>
                 <span>small business owners and executives</span>
                 <h1>Welcome to Organized Q!</h1>
             </div>
@@ -40,7 +40,7 @@
             {{-- width="<?php echo absint( get_custom_header()->width ); ?>" --}}
             {{-- height="<?php echo absint( get_custom_header()->height ); ?>" --}}
             alt="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>"
-            class="w-7/12"
+            class="w-full md:w-7/12 order-1 md:order-2"
             >
         </div>
         @endif
