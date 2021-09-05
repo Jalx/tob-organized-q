@@ -1,11 +1,16 @@
 .perks {
-    min-width: 236px;
-    min-height: 225px;
+    box-shadow: 0px 0px 20px #FAECEB;
     background-color: #FFFFFF;
     @apply z-50 relative;
-
+    border-radius: 4px;
+    min-width: 236px;
+    min-height: 225px;
     @screen md {
-        min-width: 245px;       
+        min-width: 155px;
+        min-height: 185px;
+    }
+    @screen xl {
+        min-width: 245px;
         min-height: 233px;
     }
 }
@@ -23,6 +28,26 @@
     min-height: 412px;
     border-radius: 4px;
     @screen md {
+        min-width: 222px;
+        min-height: 358px;
+    }
+    @screen xl {
+        min-width: 222px;
+        min-height: 358px;
+    }
+}
+
+.card-customer-result-img {
+    @apply flex justify-center;
+    overflow: hidden;
+    min-width: 250px;
+    min-height: 412px;
+    border-radius: 4px;
+    @screen md {
+        min-width: 222px;
+        min-height: 358px;
+    }
+    @screen xl {
         min-width: 422px;
         min-height: 358px;
     }
