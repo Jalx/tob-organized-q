@@ -38,10 +38,30 @@
 }
 
 #site-header-title {
+	height: 50vh;
 	@screen md {
 		margin-left: 5%;
+		height: auto;
 	}
 	@screen xxl {
 		margin-left: 200px;
 	}
 }
+
+.the-logo {
+	@apply flex justify-between;
+	.custom-logo {
+		@apply hidden;
+		@screen md {
+			@apply block;
+		}
+	}
+	.mobile-custom-logo {
+		@apply block;
+		@screen md {
+			@apply hidden;
+		}
+	}
+}
+
+// Menu
