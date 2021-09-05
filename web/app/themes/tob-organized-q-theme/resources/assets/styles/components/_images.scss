@@ -1,0 +1,10 @@
+.image-tall {
+    min-height: 488px;
+    object-fit: cover;
+}
+
+@screen md {
+    .image-tall {
+        min-height: auto;
+    }
+}
