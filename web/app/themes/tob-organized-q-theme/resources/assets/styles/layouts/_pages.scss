@@ -3,8 +3,9 @@
 }
 
 .front-page-section {
-	@apply mb-24;
+	@apply pb-12 pt-6;
     @screen xxl {
+		@apply pb-24;
 		margin-left: 200px;
 		margin-right: 200px;
 	}
@@ -12,6 +13,20 @@
 
 .fp-bg-grey {
 	background-color: $grey-color;
+}
+.fp-bg-orange-to-grey {
+	background-color: $tomato-color;
+	background-position-x: -88px !important;
+	background-position-y: 94% !important;
+	background-image: url('/app/themes/tob-organized-q-theme/resources/assets/images/icons/q-orange.svg');
+}
+@screen md {
+	.fp-bg-orange-to-grey {
+		background-position-x: center !important;
+		background-position-y: center !important;
+		background-color: $grey-color;
+		background-image: url('/app/themes/tob-organized-q-theme/resources/assets/images/icons/big-Q.svg');
+	}
 }
 .fp-bg-black {
 	background-color: $black-color;
@@ -48,6 +63,7 @@
 		height: 490px ;
 		object-fit: cover;
 		object-position: bottom;
+		filter: drop-shadow(0px 0px 20px #FAECEB);
 		clip-path: polygon(14% 0%, 100% 0, 100% 100%, 0% 100%);
 	}
 }
@@ -90,24 +106,52 @@
 	font-weight: bold;
 	font-size: 40px;
 }
+@screen md {
+	.front-page-section-header {
+		font-size: 30px;
+	}
+}
+
+
 .front-page-section-header-tomato {
 	color: $tomato-color;
 	// font-family: 'brandon';
 	font-weight: bold;
 	font-size: 40px;
 }
+
 .front-page-section-subtitle {
 	color: $black-color;
-	@apply  mt-3 mb-2;
+	@apply mt-4 mb-4 md:mt-3 md:mb-2;
 	// font-family: 'brandon';
 	font-size: 18px;
+	list-style: 25px;
+	letter-spacing: 0.005em;
+}
+@screen md {
+	.front-page-section-subtitle {
+		font-size: 16px;
+		line-height: 22px;
+	}
 }
 
 .front-page-section-copy {
+	@apply mt-7 mb-7 md:mt-1 md:mb-1;
 	color: $grey-color;
-	letter-spacing: 1px;
+	letter-spacing: 0.005em;
 	// font-family: 'brandon';
-	font-size: 18px;
+	font-size: 14px;
+	line-height: 19px;
+}
+@screen md {
+	.front-page-section-copy {
+		font-size: 16px;
+		line-height: 22px;
+	}
+}
+
+.front-page-section-img {
+	
 }
 
 .btn-cta {
@@ -148,6 +192,7 @@
 	// font-family: 'brandom';
 	font-size: 1rem;
 	font-weight: normal;
+	color: $grey-color;
 }
 
 .bullet-copy {
@@ -155,7 +200,7 @@
 	font-size: 1rem;
 	font-weight: normal;
 	color: white;
-	letter-spacing: 1px;
+	letter-spacing: 0.005em;
 }
 
 // Backgrounds
@@ -177,4 +222,59 @@
     background-repeat: no-repeat;
     background-position-x: 655px;
     background-position-y: center;
+}
+
+.organized-q-footer {
+	background-color: $dark-gray-blue-color;
+	@apply py-24;
+	color: white;
+}
+
+.organized-q-footer-logo {
+	height: 51px;
+	width: 41;
+}
+
+.organized-q-footer-header {
+	// font-family: 'Brandon';
+	@apply mb-4;
+	font-weight: normal;
+	letter-spacing: 0.005em;
+	font-size: 15px;
+}
+
+.organized-q-footer-copy {
+	// font-family: 'Brandon';
+	color: $light-gray-color;
+	font-weight: normal;
+	letter-spacing: 0.005em;
+	font-size: 10px;
+	@screen md {
+		font-size: 12px;
+	}
+}
+
+.organized-q-footer-menu {
+	// font-family: 'Brandon';
+	list-style: none;
+	color: $light-gray-color;
+	padding-left: 0;
+	font-size: 10px;
+	a {
+		color: $light-gray-color;
+	}
+	@screen md {
+		font-size: 12px;
+	}
+}
+
+
+// Background Classes
+@responsive {
+	.bg-grey-blue {
+		background-color: $gray-blue-color;
+	}
+	.bg-pale {
+		background-color: $pale-color;
+	}
 }
