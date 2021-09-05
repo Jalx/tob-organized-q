@@ -95,12 +95,34 @@ Container::getInstance()
 // Custom features
 add_theme_support('custom-logo');
 
+function theme_customizer_setting($wp_customize) {
+    // add a setting 
+    $wp_customize->add_setting('custom-mobile-logo');
+    // Add a control to upload the hover logo
+    $wp_customize->add_control(
+        new WP_Customize_Image_Control(
+            $wp_customize,
+            'custom-mobile-logo',
+            array(
+                'label' => 'Upload Mobile Logo',
+                'section' => 'title_tagline', //this is the section where the custom-logo from WordPress is
+                'settings' => 'custom-mobile-logo',
+                'priority' => 8 // show it just below the custom-logo
+            )
+        )
+    );
+}
+    
+add_action('customize_register', 'theme_customizer_setting');
+
 // Menu Locations
 function register_tob_menus() {
     register_nav_menus(
         array(
-        'header-menu' => __( 'Footer Menu' ),
-        'extra-menu' => __( 'Extra Menu' )
+        'header-menu' => __( 'Header Menu' ),
+        'extra-menu' => __( 'Extra Menu' ),
+        'more-links-footer-menu' => __( 'More Links - Footer' ),
+        'services-footer-menu' => __( 'Services - Footer' )
         )
     );
 }
