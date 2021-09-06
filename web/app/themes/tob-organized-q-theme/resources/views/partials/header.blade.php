@@ -1,5 +1,5 @@
-<header class="banner">
-    <div class="container absolute">
+<header class="banner section">
+    <div class="w-full absolute">
         <nav class="nav-primary z-50 mt-6">
             <div class="flex justify-between mx-7 md:mx-1" x-data="{menuOpen:false}">
                 <div class="z-50 the-logo">
@@ -21,7 +21,7 @@
                 >
                     <img class="" src="@php echo get_template_directory_uri(); @endphp/assets/images/icons/menu.svg" alt="menu">
                 </button>
-                <div x-cloak :class="menuOpen ? 'z-50 h-screen md:flex bg-black top-0 left-0 absolute' : 'z-50 hidden md:flex'" style="z-index: 100;" x-transition>
+                <div x-cloak :class="menuOpen ? 'z-50 h-screen md:flex bg-black top-0 left-0 absolute menu-animation' : 'z-50 hidden md:flex menu-animation-out'" style="z-index: 100;">
                     <div class="flex justify-between md:hidden my-6 px-10">
                         <a class="brand" href="{{ home_url('/') }}"
                             aria-label="{{ get_bloginfo('name', 'display') }}"
@@ -31,7 +31,9 @@
                         <button class="z-50 block md:hidden text-white  "
                             x-on:click="menuOpen = false"
                         >
-                            X
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
+                            </svg>
                         </button>
                     </div>
                     @if (has_nav_menu('primary_navigation'))
