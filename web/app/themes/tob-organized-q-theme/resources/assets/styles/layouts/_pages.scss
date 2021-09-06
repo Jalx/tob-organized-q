@@ -278,3 +278,38 @@
 		background-color: $pale-color;
 	}
 }
+
+// homepage section animation
+@keyframes grow-out {
+	0% {
+		transform: scaleX(0);
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+		transform: scaleX(1)
+	}
+}
+@keyframes fade-enter {
+	0% {
+		opacity: 0;
+		transform: translateY(10%);
+	}
+	100% {
+		opacity: 1;
+		transform: translateY(0%);
+	}
+}
+
+@media (prefers-reduced-motion: no-preference) {
+	.section-animation {
+		animation: fade-enter 800ms;
+		
+	}
+}
+@media (prefers-reduced-motion: no-preference) {
+	.hero-animation {
+		animation: grow-out 800ms;
+		
+	}
+}
