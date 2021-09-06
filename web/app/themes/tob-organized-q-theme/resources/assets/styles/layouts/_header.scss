@@ -25,9 +25,10 @@
 
 .banner .nav a {
 	@apply inline-block px-4 py-2 border-none;
-
+	transition: border-bottom;
 	&:hover {
-		color: darken(#525ddc, 30%);
+		color: white;
+		border-bottom: solid 1px white;
 	}
 }
 
@@ -75,4 +76,52 @@
 	line-height: 17px;
 	text-align: center;
 	color: white;
+}
+
+@media (max-width: 768px) {
+	.mobile-menu {
+		transform: translateX(100%);
+		transition-property: transform;
+		transition-duration: 200ms;
+		transition-timing-function: ease-in;
+	}
+	.mobile-menu-active {
+		transform: translateX(0%) !important;
+	}
+
+}
+
+// Animation
+@keyframes fade-slide-in {
+	0% {
+		opacity: 0;
+		transform: translateX(10%);
+	}
+	100% {
+		opacity: 1;
+		transform: translateX(0%);
+	}
+}
+
+@keyframes fade-slide-out {
+	0% {
+		opacity: 0;
+		transform: translateX(10%);
+	}
+	100% {
+		opacity: 1;
+		transform: translateX(0%);
+	}
+}
+@media (prefers-reduced-motion: no-preference) {
+	.menu-animation {
+		animation: fade-slide-in 800ms;
+		
+	}
+}
+@media (max-width: 768px) {
+	.menu-animation-out {
+		animation: fade-slide-out 500ms;
+		
+	}
 }
