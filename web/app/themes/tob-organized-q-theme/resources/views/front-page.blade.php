@@ -2,7 +2,7 @@
 
 @section('content')
 
-    <div class="front-page-section mt-32 md:-mt-16" >
+    <div class="section front-page-section mt-32 md:-mt-16" >
         <div class="grid grid-cols-12 gap-5">
             <div class="col-start-2 col-span-10 md:col-span-3">
                 <div class="flex justify-items-center perks">
@@ -51,7 +51,7 @@
         </div>
     </div>
 
-    <div class="front-page-section">
+    <div class="section front-page-section">
         <div class="grid grid-cols-12 gap-5">
             <div class="col-span-10 col-start-2 md:col-start-3 md:col-span-3">
                 <div class="flex content-center h-full">
@@ -77,7 +77,7 @@
         </div>
     </div>
 
-    <div class="front-page-section">
+    <div class="section front-page-section">
         <div class="grid grid-cols-12 gap-5">
             <div class="col-span-12 md:col-start-2 md:col-span-4">
                 <div class="flex justify-center">
@@ -103,7 +103,7 @@
         </div>
     </div>
 
-    <div class="front-page-section bg-grey-blue md:bg-white">
+    <div class="section front-page-section bg-grey-blue md:bg-white">
         <div class="grid grid-cols-12 gap-5">
             <div class="col-span-10 col-start-2 text-center">
                 <img src="@php echo get_template_directory_uri(); @endphp/assets/images/icons/q.png" class="mx-auto my-2.5">
@@ -228,7 +228,7 @@
         </div>
     </div>
 
-    <div class="front-page-section">
+    <div class="section front-page-section">
         <div class="grid grid-cols-12 md:gap-5">
             <div class="col-span-10 col-start-2 text-center">
                 <img src="@php echo get_template_directory_uri(); @endphp/assets/images/icons/q.png" class="mx-auto my-2.5">
@@ -294,7 +294,7 @@
         </div>
     </div>
 
-    <div class="front-page-section-wide lg:fp-ml">
+    <div class="section front-page-section-wide lg:fp-ml">
         <div class="grid grid-cols-12 gap-5">
             <div class="col-span-10 col-start-2 md:col-span-4 md:col-start-2 lg:col-span-5 text-left">
                 <div>
@@ -315,7 +315,7 @@
         </div>
     </div>
 
-    <div class="front-page-section-wide fp-bg-grey lg:fp-pl lg:fp-pr flex flex-wrap content-center bg-q-img"
+    <div class="section front-page-section-wide fp-bg-grey lg:fp-pl lg:fp-pr flex flex-wrap content-center bg-q-img"
         style="
         background-image:
         linear-gradient(80deg, transparent 0% 16%, #000000 16% 100%),
@@ -383,7 +383,7 @@
         </div>
     </div>
 
-    <div class="front-page-section mt-24 mb-24 md:mb-0">
+    <div class="section front-page-section mt-24 mb-24 md:mb-0">
         <div class="grid grid-cols-12 md:grid-cols-8 md:gap-5">
             <div class="text-left col-span-10 col-start-2 md:col-span-2 md:col-start-3 lg:col-start-3 xl:col-start-3 xxl:col-span-2 mb-10">
                 <img
@@ -436,7 +436,7 @@
         </div>
     </div>
 
-    <div class="front-page-section-wide lg:fp-pr bg-pale pb-10 md:pb-0">
+    <div class="section front-page-section-wide lg:fp-pr bg-pale pb-10 md:pb-0">
         <div class="grid grid-cols-12 gap-5">
             <div class="col-span-12 md:col-span-8 text-left">            
                 <img
@@ -456,7 +456,7 @@
         </div>
     </div>
 
-    <div class="front-page-section">
+    <div class="section front-page-section">
         <div class="grid grid-cols-1 md:grid-cols-6 gap-5 pt-28 pb-4">
             <div class="m-auto">
                 <img src="@php echo get_template_directory_uri(); @endphp/assets/images/icons/partners/dvsv3-logo 1.png');" alt="">
@@ -479,7 +479,7 @@
         </div>
     </div>
 
-    <div class="front-page-section-wide fp-bg-grey-to-transparent flex flex-wrap content-center "
+    <div class="section front-page-section-wide fp-bg-grey-to-transparent flex flex-wrap content-center "
         style="
         background-image:
         linear-gradient(80deg, #000000 0% 40%, transparent 40% 100%)
