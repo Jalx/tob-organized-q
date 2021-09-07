@@ -70,7 +70,7 @@
                 <div class="flex justify-center">
                     <img
                         src="@php echo get_template_directory_uri(); @endphp/assets/images/government-services.png"
-                        class="mx-auto object-none front-page-section-img"
+                        class="mx-auto object-none front-page-section-img-noclip"
                     >
                 </div>
             </div>
@@ -83,7 +83,7 @@
                 <div class="flex justify-center">
                     <img
                         src="@php echo get_template_directory_uri(); @endphp/assets/images/executives-smb.png"
-                        class="w-full md:w-auto"
+                        class="w-full md:w-auto front-page-section-img-noclip"
                     >
                 </div>
             </div>
