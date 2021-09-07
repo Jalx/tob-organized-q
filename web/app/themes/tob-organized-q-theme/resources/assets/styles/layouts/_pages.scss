@@ -211,6 +211,29 @@
     background-position-x: 396px;
     background-position-y: center;
 }
+
+.bg-q-img-mobile {
+	object-position: center;
+    background-repeat: no-repeat;
+    background-position-x: 300px;
+    background-position-y: center;
+	background-image: linear-gradient(84deg, transparent 0% 20%, #000000 20% 100%),
+	url();
+	
+}
+
+@screen md {
+	.bg-q-img-mobile {
+		object-position: center;
+		background-repeat: no-repeat;
+		background-position-x: 396px;
+		background-position-y: center;
+        background-image:
+        linear-gradient(80deg, transparent 0% 16%, #000000 16% 100%),
+        url('http://bedrock.lndo.site/app/themes/tob-organized-q-theme/resources/assets/images/icons/Big-Q.svg');
+	}
+}
+
 .bg-q-img-center {
 	object-position: center;
     background-repeat: no-repeat;

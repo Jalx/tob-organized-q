@@ -315,11 +315,8 @@
         </div>
     </div>
 
-    <div class="section front-page-section-wide fp-bg-grey lg:fp-pl lg:fp-pr flex flex-wrap content-center bg-q-img"
-        style="
-        background-image:
-        linear-gradient(80deg, transparent 0% 16%, #000000 16% 100%),
-        url('@php echo get_template_directory_uri(); @endphp/assets/images/icons/Big-Q.svg');"
+    <div class="section front-page-section-wide fp-bg-grey lg:fp-pl lg:fp-pr flex flex-wrap content-center bg-q-img-mobile"
+        
     >
         <div class="grid grid-cols-12 gap-5 mt-12 md:mt-24 mb-24">
             <div class="col-span-10 col-start-2 md:col-span-4 md:col-start-2     lg:col-span-4 flex items-center">
