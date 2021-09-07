@@ -59,6 +59,7 @@
                 <div class="text-center">
                     <span class="uppercase">Virtual Executive Assistant services small business owners and executives</span>
                     <h1 class="py-6">Welcome to Organized Q!</h1>
+                    <a href="#" class="btn-cta-white md:hidden mx-auto">Government Contracting</a>
                 </div>
             </div>
             <img src="<?php header_image(); ?>"
