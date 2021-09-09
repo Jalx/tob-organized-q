@@ -424,7 +424,7 @@
 
     <div class="section front-page-section-wide lg:fp-ml">
         <div class="grid grid-cols-12 gap-5">
-            <div class="col-span-10 col-start-2 md:col-span-4 md:col-start-2 lg:col-span-5 text-left">
+            <div class="col-span-10 col-start-2 md:col-span-4 md:col-start-2 lg:col-span-5 text-left animate" data-animation="slide-in-left">
                 <div>
                     <div class="front-page-section-tag ml-auto mr-auto md:ml-0 md:mr-0">
                         <span>Who we help?</span>
@@ -447,7 +447,7 @@
         
     >
         <div class="grid grid-cols-12 gap-5 mt-12 md:mt-24 mb-24">
-            <div class="col-span-10 col-start-2 md:col-span-4 md:col-start-2     lg:col-span-4 flex items-center">
+            <div class="col-span-10 col-start-2 md:col-span-4 md:col-start-2 lg:col-span-4 flex items-center animate" data-animation="slide-in-left">
                 <div class="text-white">
                     <div class="front-page-section-tag ml-auto mr-auto md:ml-0 md:mr-0">
                         <span>Our Process</span>
@@ -458,7 +458,7 @@
             </div>
             <div class="col-span-10 col-start-2 md:col-start-7 md:col-span-6 text-center">
                 <div>
-                    <div class="flex mb-11">
+                    <div class="flex mb-11 animate"  data-animation="slide-in-right">
                         <div class="w-3/12 md:w-2/12 flex justify-between">
                             <span class="bullet-number">1.</span>
                             <img class="pr-5 my-1" style="height: 30px" src="@php echo get_template_directory_uri(); @endphp/assets/images/icons/orange-bar.svg">
@@ -472,7 +472,7 @@
                             </p>
                         </div>
                     </div>
-                    <div class="flex mb-11">
+                    <div class="flex mb-11 animate"  data-animation="slide-in-right">
                         <div class="w-3/12 md:w-2/12 flex justify-between">
                             <span class="bullet-number">2.</span>
                             <img class="pr-5 my-1" style="height: 30px" src="@php echo get_template_directory_uri(); @endphp/assets/images/icons/orange-bar.svg">
@@ -486,7 +486,7 @@
                             </p>
                         </div>
                     </div>
-                    <div class="flex mb-11">
+                    <div class="flex mb-11 animate"  data-animation="slide-in-right">
                         <div class="w-3/12 md:w-2/12 flex justify-between">
                             <span class="bullet-number">3.</span>
                             <img class="pr-5 my-1" style="height: 30px" src="@php echo get_template_directory_uri(); @endphp/assets/images/icons/orange-bar.svg">
@@ -569,7 +569,7 @@
                     class="front-page-section-img-r-clip image-tall mb-16 md:mb-0"
                 >
             </div>
-            <div class="col-span-10 col-start-2 md:col-start-9 md:col-span-4 text-left flex items-center">
+            <div class="col-span-10 col-start-2 md:col-start-9 md:col-span-4 text-left flex items-center animate" data-animation="slide-in-right">
                 <div>
                     <div class="front-page-section-tag ml-auto mr-auto md:ml-0 md:mr-0">
                         <span>Who We Help?</span>
@@ -622,7 +622,7 @@
                     class="front-page-section-img-r-clip-bottom image-tall"
                 >
             </div>
-            <div class="col-span-10 col-start-2 md:col-start-8 md:col-span-4 xl:col-start-9 xl:col-span-4 text-left flex items-center my-24 md:my-0">
+            <div class="col-span-10 col-start-2 md:col-start-8 md:col-span-4 xl:col-start-9 xl:col-span-4 text-left flex items-center my-24 md:my-0 animate" data-animation="slide-in-right">
                 <div>
                     <h2 class="front-page-section-header text-white text-center md:text-left">Ready to get back the time you deserve<span class="text-black">?</span> </h2>
                     <p class="bullet-title text-center md:text-left">Let us help you to reduce the volume of work left undone in your organization. Use our virtual team members to help your organization climb higher.</p>
