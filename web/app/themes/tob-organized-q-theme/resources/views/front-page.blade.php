@@ -4,7 +4,7 @@
 
     <div class="section front-page-section mt-32 md:-mt-16" >
         <div class="grid grid-cols-12 gap-5">
-            <div class="section col-start-2 col-span-10 md:col-span-3">
+            <div class="animate col-start-2 col-span-10 md:col-span-3 " data-animation="animation-grow">
                 <div class="flex justify-items-center perks">
                     <div class="w-full my-auto">
                         <img
@@ -15,7 +15,7 @@
                     </div>
                 </div>
             </div>
-            <div class="section col-start-2 col-span-10 md:col-span-3">
+            <div class="animate col-start-2 col-span-10 md:col-span-3 " data-animation="animation-grow">
                 <div class="flex justify-items-center perks">
                     <div class="w-full my-auto">
                         <img
@@ -26,7 +26,7 @@
                     </div>
                 </div>
             </div>
-            <div class="section col-start-2 col-span-10 md:col-span-3">
+            <div class="animate col-start-2 col-span-10 md:col-span-3 " data-animation="animation-grow">
                 <div class="flex justify-items-center perks">
                     <div class="w-full my-auto">
                         <img
@@ -37,7 +37,7 @@
                     </div>
                 </div>
             </div>
-            <div class="section col-start-2 col-span-10 md:col-span-3">
+            <div class="animate col-start-2 col-span-10 md:col-span-3 " data-animation="animation-grow">
                 <div class="flex justify-items-center perks">
                     <div class="w-full my-auto">
                         <img
