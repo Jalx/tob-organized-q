@@ -434,7 +434,7 @@
                     <a href="#" class="btn-cta ml-auto mr-auto md:ml-0 md:mr-0 mt-7 mb-5 md:mt-1 md:mb-1">Request Information</a>
                 </div>
             </div>
-            <div class="col-span-12 md:col-start-6 md:col-span-7 text-center">
+            <div class="col-span-12 md:col-start-6 md:col-span-7 text-center animate" data-animation="slide-in-right">
                 <img
                     src="@php echo get_template_directory_uri(); @endphp/assets/images/paige-cody-working-for-us.png"
                     class="front-page-section-img"
@@ -510,7 +510,7 @@
 
     <div class="section front-page-section mt-24 mb-24 md:mb-0">
         <div class="grid grid-cols-12 md:grid-cols-8 md:gap-5">
-            <div class="text-left col-span-10 col-start-2 md:col-span-2 md:col-start-3 lg:col-start-3 xl:col-start-3 xxl:col-span-2 mb-10">
+            <div class="animate text-left col-span-10 col-start-2 md:col-span-2 md:col-start-3 lg:col-start-3 xl:col-start-3 xxl:col-span-2 mb-10">
                 <img
                     src="@php echo get_template_directory_uri(); @endphp/assets/images/building.png"
                     class="w-full md:mx-auto mb-5"
@@ -522,7 +522,7 @@
                 <h3 class="my-3 front-page-section-subtitle">Based in the US</h3>
                 <p class="copy">To provide high-level virtual executive assistance to executives</p>
             </div>
-            <div class="text-left col-span-10 col-start-2 md:col-span-2 mb-10">
+            <div class="animate text-left col-span-10 col-start-2 md:col-span-2 mb-10" data-animation="animation-grow">
                 <img
                     src="@php echo get_template_directory_uri(); @endphp/assets/images/remote.png"
                     class="w-full md:mx-auto mb-5"
@@ -534,7 +534,7 @@
                 <h3 class="my-3 front-page-section-subtitle">Completely Remote</h3>
                 <p class="copy">To provide high-level virtual executive assistance to executives</p>
             </div>
-            <div class="text-left col-span-10 col-start-2 md:col-span-2 md:col-start-3 lg:col-start-3 xl:col-start-3 xxl:col-span-2 mb-10">
+            <div class="animate text-left col-span-10 col-start-2 md:col-span-2 md:col-start-3 lg:col-start-3 xl:col-start-3 xxl:col-span-2 mb-10" data-animation="animation-grow">
                 <img
                     src="@php echo get_template_directory_uri(); @endphp/assets/images/spouses.png"
                     class="w-full md:mx-auto mb-5"
@@ -546,7 +546,7 @@
                 <h3 class="my-3 front-page-section-subtitle">Support Military Spouses</h3>
                 <p class="copy">To provide high-level virtual executive assistance to executives</p>
             </div>
-            <div class="text-left col-span-10 col-start-2 md:col-span-2 mb-10">
+            <div class="animate text-left col-span-10 col-start-2 md:col-span-2 mb-10" data-animation="animation-grow">
                 <img
                     src="@php echo get_template_directory_uri(); @endphp/assets/images/award-winning.png"
                     class="w-full md:mx-auto mb-5"
@@ -563,7 +563,7 @@
 
     <div class="section front-page-section-wide lg:fp-pr bg-pale pb-10 md:pb-0">
         <div class="grid grid-cols-12 gap-5">
-            <div class="col-span-12 md:col-span-8 text-left">            
+            <div class="col-span-12 md:col-span-8 text-left animate" data-animation="slide-in-left">
                 <img
                     src="@php echo get_template_directory_uri(); @endphp/assets/images/military-family.png"
                     class="front-page-section-img-r-clip image-tall mb-16 md:mb-0"
@@ -616,7 +616,7 @@
             
         >
         <div class="grid grid-cols-12 gap-5">
-            <div class="col-span-12 md:col-span-6 xl:col-span-7 flex items-center">
+            <div class="col-span-12 md:col-span-6 xl:col-span-7 flex items-center animate" data-animation="slide-in-left">
                 <img
                     src="@php echo get_template_directory_uri(); @endphp/assets/images/your-time.png"
                     class="front-page-section-img-r-clip-bottom image-tall"

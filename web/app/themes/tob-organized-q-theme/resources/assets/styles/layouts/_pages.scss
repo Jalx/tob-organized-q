@@ -165,7 +165,7 @@
 
 .btn-cta {
 	background-color: $tomato-color;
-	@apply text-center pt-2.5 block;
+	@apply text-center pt-2.5 block border-red;
 	@apply hover:bg-grey hover:text-white hover:shadow-lg hover:border-grey;
 	border-width: 1px;
 	border-style: solid;
@@ -318,6 +318,26 @@
 }
 
 // homepage section animation
+@keyframes slide-in-left {
+	0% {
+		opacity: 0;
+		transform: translateX(-10%);
+	}
+	100% {
+		opacity: 1;
+		transform: translateX(0%);
+	}
+}
+@keyframes slide-in-right {
+	0% {
+		opacity: 0;
+		transform: translateX(100%);
+	}
+	100% {
+		opacity: 1;
+		transform: translateX(0%);
+	}
+}
 @keyframes grow-out {
 	0% {
 		transform: scaleX(0);
@@ -325,9 +345,10 @@
 	}
 	100% {
 		opacity: 1;
-		transform: scaleX(1)
+		transform: scaleX(1);
 	}
 }
+
 @keyframes fade-enter {
 	0% {
 		opacity: 0;
@@ -355,5 +376,11 @@
 	.hero-animation {
 		animation: grow-out 800ms;
 		
+	}
+	.slide-in-left {
+		animation: slide-in-left 600ms;
+	}
+	.slide-in-right {
+		animation: slide-in-right 600ms;
 	}
 }

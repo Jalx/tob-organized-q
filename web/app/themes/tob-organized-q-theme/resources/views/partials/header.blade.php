@@ -67,7 +67,7 @@
             {{-- width="<?php echo absint( get_custom_header()->width ); ?>" --}}
             {{-- height="<?php echo absint( get_custom_header()->height ); ?>" --}}
             alt="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>"
-            class="w-full md:w-7/12 order-1 md:order-2"
+            class="w-full md:w-7/12 order-1 md:order-2 animate" data-animation="slide-in-right"
             >
         </div>
         @endif
