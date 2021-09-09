@@ -405,31 +405,30 @@
 
 @media (prefers-reduced-motion: no-preference) {
 	.animation-grow {
-		animation-delay: 200ms;
-		animation: grow-out 800ms;	
+		animation: grow-out 900ms;
 	}
 	.grow {
-		animation: grow 300ms;	
+		animation: grow 500ms;
 	}
 	.grow-vertically {
-		animation: grow-vertically 800ms;	
+		animation: grow-vertically 900ms;	
 	}
 }
 @media (prefers-reduced-motion: no-preference) {
 	.section-animation {
-		animation: fade-enter 800ms;
+		animation: fade-enter 900ms;
 		
 	}
 }
 @media (prefers-reduced-motion: no-preference) {
 	.hero-animation {
-		animation: grow-out 800ms;
+		animation: grow-out 900ms;
 		
 	}
 	.slide-in-left {
-		animation: slide-in-left 600ms;
+		animation: slide-in-left 900ms;
 	}
 	.slide-in-right {
-		animation: slide-in-right 600ms;
+		animation: slide-in-right 900ms;
 	}
 }
