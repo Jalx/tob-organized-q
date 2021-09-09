@@ -165,7 +165,10 @@
 
 .btn-cta {
 	background-color: $tomato-color;
-	@apply text-center pt-3 pb-2 block;
+	@apply text-center pt-2.5 block;
+	@apply hover:bg-grey hover:text-white hover:shadow-lg hover:border-grey;
+	border-width: 1px;
+	border-style: solid;
 	border-radius: 4px;
 	color: white;
 	width: 202px;
@@ -173,7 +176,10 @@
 }
 
 .btn-cta-white {
-	@apply text-center pt-3 pb-2 block;
+	@apply text-center pt-2.5 block;
+	@apply hover:bg-red hover:text-white hover:shadow-lg hover:border-red;
+	border-width: 1px;
+	border-style: solid;
 	background-color: white;
 	border-radius: 4px;
 	color: $grey-color;
