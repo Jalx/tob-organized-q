@@ -4,7 +4,7 @@
 
     <div class="section front-page-section mt-32 md:-mt-16" >
         <div class="grid grid-cols-12 gap-5">
-            <div class="col-start-2 col-span-10 md:col-span-3">
+            <div class="section col-start-2 col-span-10 md:col-span-3">
                 <div class="flex justify-items-center perks">
                     <div class="w-full my-auto">
                         <img
@@ -15,7 +15,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-start-2 col-span-10 md:col-span-3">
+            <div class="section col-start-2 col-span-10 md:col-span-3">
                 <div class="flex justify-items-center perks">
                     <div class="w-full my-auto">
                         <img
@@ -26,7 +26,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-start-2 col-span-10 md:col-span-3">
+            <div class="section col-start-2 col-span-10 md:col-span-3">
                 <div class="flex justify-items-center perks">
                     <div class="w-full my-auto">
                         <img
@@ -37,7 +37,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-start-2 col-span-10 md:col-span-3">
+            <div class="section col-start-2 col-span-10 md:col-span-3">
                 <div class="flex justify-items-center perks">
                     <div class="w-full my-auto">
                         <img
@@ -114,115 +114,155 @@
                 <p class="front-page-section-subtitle hidden md:block">Organized Q provides the following services:</p>
             </div>
             <div class="flex col-span-8 col-start-3">
-                <div class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-5 gap-y-6 w-full">
-                    <div class="card-services">
-                        <div>
-                            <img
-                                src="@php echo get_template_directory_uri(); @endphp/assets/images/icons/management.svg"
-                                class="mx-auto mb-1"
-                            >
-                            <span>Calendar Management</span>
+                <div class="md:grid  md:grid-cols-1 xl:grid-cols-1 gap-5 gap-y-6 w-full services-slider">
+                    <div class="flex flex-col md:flex-row services-slider-item" id="services-slide-1">
+                        <div class="card-services mx-auto">
+                            <div>
+                                <img
+                                    src="@php echo get_template_directory_uri(); @endphp/assets/images/icons/management.svg"
+                                    class="mx-auto mb-5"
+                                >
+                                <span>Calendar Management</span>
+                            </div>
+                        </div>
+                        <div class="card-services mx-auto">
+                            <div>
+                                <img
+                                    src="@php echo get_template_directory_uri(); @endphp/assets/images/icons/email-management.svg"
+                                    class="mx-auto mb-5"
+                                >
+                                <span>Email Management</span>
+                            </div>
+                        </div>
+                        <div class="card-services mx-auto">
+                            <div>
+                                <img
+                                    src="@php echo get_template_directory_uri(); @endphp/assets/images/icons/scheduling.svg"
+                                    class="mx-auto mb-5"
+                                >
+                                <span>Scheduling</span>
+                            </div>
                         </div>
                     </div>
-                    <div class="card-services">
-                        <div>
-                            <img
-                                src="@php echo get_template_directory_uri(); @endphp/assets/images/icons/email-management.svg"
-                                class="mx-auto mb-1"
-                            >
-                            <span>Email Management</span>
+                    <div class="flex flex-col md:flex-row services-slider-item" id="services-slide-2">
+                        <div class="card-services mx-auto">
+                            <div>
+                                <img
+                                    src="@php echo get_template_directory_uri(); @endphp/assets/images/icons/social-media-management.svg"
+                                    class="mx-auto mb-5"
+                                >
+                                <span>Social Media Management</span>
+                            </div>
+                        </div>
+                        <div class="card-services mx-auto">
+                            <div>
+                                <img
+                                    src="@php echo get_template_directory_uri(); @endphp/assets/images/icons/digital-file-organization.svg"
+                                    class="mx-auto mb-5"
+                                >
+                                <span>Digital File Organization</span>
+                            </div>
+                        </div>
+                        <div class="card-services mx-auto">
+                            <div>
+                                <img
+                                        src="@php echo get_template_directory_uri(); @endphp/assets/images/icons/quickbooks-setup.svg"
+                                    class="mx-auto mb-5"
+                                >
+                                <span>Quickbooks Setup</span>
+                            </div>
                         </div>
                     </div>
-                    <div class="card-services">
-                        <div>
-                            <img
-                                src="@php echo get_template_directory_uri(); @endphp/assets/images/icons/scheduling.svg"
-                                class="mx-auto mb-1"
-                            >
-                            <span>Scheduling</span>
+                    <div class="flex flex-col md:flex-row services-slider-item" id="services-slide-3">
+                        <div class="card-services mx-auto">
+                            <div>
+                                <img
+                                src="@php echo get_template_directory_uri(); @endphp/assets/images/icons/editing.svg"
+                                    class="mx-auto mb-5"
+                                >
+                                <span>Editing</span>
+                            </div>
+                        </div>
+                        <div class="card-services mx-auto">
+                            <div>
+                                <img
+                                    src="@php echo get_template_directory_uri(); @endphp/assets/images/icons/blog-writing.svg"
+                                    class="mx-auto mb-5"
+                                >
+                                <span>Blog Writing</span>
+                            </div>
+                        </div>
+                        <div class="card-services mx-auto">
+                            <div>
+                                <img
+                                    src="@php echo get_template_directory_uri(); @endphp/assets/images/icons/crm-setup.svg"
+                                    class="mx-auto mb-5"
+                                >
+                                <span>CRM Setup</span>
+                            </div>
                         </div>
                     </div>
-                    <div class="card-services">
-                        <div>
-                            <img
-                                src="@php echo get_template_directory_uri(); @endphp/assets/images/icons/social-media-management.svg"
-                                class="mx-auto mb-1"
-                            >
-                            <span>Social Media Management</span>
+                    <div class="flex flex-col md:flex-row services-slider-item" id="services-slide-4">
+                        <div class="card-services mx-auto">
+                            <div>
+                                <img
+                                    src="@php echo get_template_directory_uri(); @endphp/assets/images/icons/project-management.svg"
+                                    class="mx-auto mb-5"
+                                >
+                                <span>Project Management</span>
+                            </div>
+                        </div>
+                        <div class="card-services mx-auto">
+                            <div>
+                                <img
+                                    src="@php echo get_template_directory_uri(); @endphp/assets/images/icons/subject-matter-experts.svg"
+                                    class="mx-auto mb-5"
+                                >
+                                <span>Subject Matter Experts</span>
+                            </div>
+                        </div>
+                        <div class="card-services mx-auto">
+                            <div>
+                                <img
+                                    src="@php echo get_template_directory_uri(); @endphp/assets/images/icons/ad-hoc-project-work.svg"
+                                    class="mx-auto mb-5"
+                                >
+                                <span>Ad-Hoc Project Work</span>
+                            </div>
                         </div>
                     </div>
-                    <div class="card-services">
-                        <div>
-                            <img
-                                src="@php echo get_template_directory_uri(); @endphp/assets/images/icons/digital-file-organization.svg"
-                                class="mx-auto mb-1"
-                            >
-                            <span>Digital File Organization</span>
+                </div>
+            </div>
+            <div class="flex col-span-12 mx-auto md:hidden">
+                <div class="flex">
+                    <a class="services-slider-control" href="#services-slide-1">
+                        <div class="mx-2 text-red">
+                            <svg width="11" height="11" viewBox="0 0 11 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <circle cx="5.5" cy="5.5" r="5.5" fill="#C4C4C4"/>
+                            </svg>
                         </div>
-                    </div>
-                    <div class="card-services">
-                        <div>
-                            <img
-                                    src="@php echo get_template_directory_uri(); @endphp/assets/images/icons/quickbooks-setup.svg"
-                                class="mx-auto mb-1"
-                            >
-                            <span>Quickbooks Setup</span>
+                    </a>
+                    <a class="services-slider-control" href="#services-slide-2">
+                        <div class="mx-2 text-red">
+                            <svg width="11" height="11" viewBox="0 0 11 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <circle cx="5.5" cy="5.5" r="5.5" fill="#C4C4C4"/>
+                            </svg>
                         </div>
-                    </div>
-                    <div class="card-services">
-                        <div>
-                            <img
-                            src="@php echo get_template_directory_uri(); @endphp/assets/images/icons/editing.svg"
-                                class="mx-auto mb-1"
-                            >
-                            <span>Editing</span>
+                    </a>
+                    <a class="services-slider-control" href="#services-slide-3">
+                        <div class="mx-2 text-red">
+                            <svg width="11" height="11" viewBox="0 0 11 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <circle cx="5.5" cy="5.5" r="5.5" fill="#C4C4C4"/>
+                            </svg>
                         </div>
-                    </div>
-                    <div class="card-services">
-                        <div>
-                            <img
-                                src="@php echo get_template_directory_uri(); @endphp/assets/images/icons/blog-writing.svg"
-                                class="mx-auto mb-1"
-                            >
-                            <span>Blog Writing</span>
+                    </a>
+                    <a class="services-slider-control" href="#services-slide-4">
+                        <div class="mx-2 text-red">
+                            <svg width="11" height="11" viewBox="0 0 11 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <circle cx="5.5" cy="5.5" r="5.5" fill="#C4C4C4"/>
+                            </svg>
                         </div>
-                    </div>
-                    <div class="card-services">
-                        <div>
-                            <img
-                                src="@php echo get_template_directory_uri(); @endphp/assets/images/icons/crm-setup.svg"
-                                class="mx-auto mb-1"
-                            >
-                            <span>CRM Setup</span>
-                        </div>
-                    </div>
-                    <div class="card-services">
-                        <div>
-                            <img
-                                src="@php echo get_template_directory_uri(); @endphp/assets/images/icons/project-management.svg"
-                                class="mx-auto mb-1"
-                            >
-                            <span>Project Management</span>
-                        </div>
-                    </div>
-                    <div class="card-services">
-                        <div>
-                            <img
-                                src="@php echo get_template_directory_uri(); @endphp/assets/images/icons/subject-matter-experts.svg"
-                                class="mx-auto mb-1"
-                            >
-                            <span>Subject Matter Experts</span>
-                        </div>
-                    </div>
-                    <div class="card-services">
-                        <div>
-                            <img
-                                src="@php echo get_template_directory_uri(); @endphp/assets/images/icons/ad-hoc-project-work.svg"
-                                class="mx-auto mb-1"
-                            >
-                            <span>Ad-Hoc Project Work</span>
-                        </div>
-                    </div>
+                    </a>
                 </div>
             </div>
         </div>
@@ -241,18 +281,106 @@
         </div>
         <div class="grid grid-cols-12 gap-5">
             <div class="col-span-10 col-start-2 md:col-span-6 xl:col-span-5 xl:col-start-2 text-center">
-                <div class="card-customer-result-img relative">
-                    <img class="object-cover" src="@php echo get_template_directory_uri(); @endphp/assets/images/gordon-smith.png;">
-                    <div class="absolute top-0 h-full flex items-end" style="background: rgba(0, 0, 0, 0.31);">
-                        <div class="h-2/4 md:h-3/4 lg:h-2/4 px-5 md:px-10 flex flex-col items-center">
-                            <img src="@php echo get_template_directory_uri(); @endphp/assets/images/icons/horizontal-orange-long-bar.svg;"
-                            class="mx-auto">
-                            <p class="text-white my-1 md:my-4">“They’re change my life and brought balance, freedom and some sanity to may business.”</p>
-                            <span class="text-white my-4">GORDON SMITH - CEO AT BUSINES NAME</span>
-                            <div class="flex justify-center mt-2 md:mt-4">
-                                <img class="mx-1" src="@php echo get_template_directory_uri(); @endphp/assets/images/icons/orange-circle-active-gallery.svg;">
-                                <img class="mx-1" src="@php echo get_template_directory_uri(); @endphp/assets/images/icons/orange-circle-gallery.svg;">
-                                <img class="mx-1" src="@php echo get_template_directory_uri(); @endphp/assets/images/icons/orange-circle-gallery.svg;">
+                <div class="customers-slider">
+                    <div class="card-customer-result-img relative customers-slider-item" id="customers-slide-1">
+                        <img class="object-cover" src="@php echo get_template_directory_uri(); @endphp/assets/images/gordon-smith.png;">
+                        <div class="absolute top-0 h-full flex items-end" style="background: rgba(0, 0, 0, 0.31);">
+                            <div class="h-2/4 md:h-3/4 lg:h-2/4 px-5 md:px-10 flex flex-col items-center">
+                                <img src="@php echo get_template_directory_uri(); @endphp/assets/images/icons/horizontal-orange-long-bar.svg;"
+                                class="mx-auto">
+                                <p class="text-white my-1 md:my-4">“They’re change my life and brought balance, freedom and some sanity to may business.”</p>
+                                <span class="text-white my-4">GORDON SMITH - CEO AT BUSINES NAME</span>
+                                <div class="flex justify-center mt-2 md:mt-4">
+                                    <a class="customers-slider-control" href="#customers-slide-1">
+                                        <div class="mx-2 text-red">
+                                            <svg width="11" height="11" viewBox="0 0 11 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <circle cx="5.5" cy="5.5" r="5.5" fill="#FF664D"/>
+                                            </svg>
+                                        </div>
+                                    </a>
+                                    <a class="services-slider-control" href="#customers-slide-2">
+                                        <div class="mx-2 text-red">
+                                            <svg width="11" height="11" viewBox="0 0 11 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <circle cx="5.5" cy="5.5" r="5.5" fill="#C4C4C4"/>
+                                            </svg>
+                                        </div>
+                                    </a>
+                                    <a class="services-slider-control" href="#customers-slide-3">
+                                        <div class="mx-2 text-red">
+                                            <svg width="11" height="11" viewBox="0 0 11 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <circle cx="5.5" cy="5.5" r="5.5" fill="#C4C4C4"/>
+                                            </svg>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-customer-result-img relative customers-slider-item" id="customers-slide-2">
+                        <img class="object-cover" src="@php echo get_template_directory_uri(); @endphp/assets/images/gordon-smith.png;">
+                        <div class="absolute top-0 h-full flex items-end" style="background: rgba(0, 0, 0, 0.31);">
+                            <div class="h-2/4 md:h-3/4 lg:h-2/4 px-5 md:px-10 flex flex-col items-center">
+                                <img src="@php echo get_template_directory_uri(); @endphp/assets/images/icons/horizontal-orange-long-bar.svg;"
+                                class="mx-auto">
+                                <p class="text-white my-1 md:my-4">“They’re change my life and brought balance, freedom and some sanity to may business.”</p>
+                                <span class="text-white my-4">GORDON SMITH - CEO AT BUSINES NAME</span>
+                                <div class="flex justify-center mt-2 md:mt-4">
+                                    <a class="customers-slider-control" href="#customers-slide-1">
+                                        <div class="mx-2 text-red">
+                                            <svg width="11" height="11" viewBox="0 0 11 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <circle cx="5.5" cy="5.5" r="5.5" fill="#C4C4C4"/>
+                                            </svg>
+                                        </div>
+                                    </a>
+                                    <a class="services-slider-control" href="#customers-slide-2">
+                                        <div class="mx-2 text-red">
+                                            <svg width="11" height="11" viewBox="0 0 11 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <circle cx="5.5" cy="5.5" r="5.5" fill="#FF664D"/>
+                                            </svg>
+                                        </div>
+                                    </a>
+                                    <a class="services-slider-control" href="#customers-slide-3">
+                                        <div class="mx-2 text-red">
+                                            <svg width="11" height="11" viewBox="0 0 11 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <circle cx="5.5" cy="5.5" r="5.5" fill="#C4C4C4"/>
+                                            </svg>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-customer-result-img relative customers-slider-item" id="customers-slide-3">
+                        <img class="object-cover" src="@php echo get_template_directory_uri(); @endphp/assets/images/gordon-smith.png;">
+                        <div class="absolute top-0 h-full flex items-end" style="background: rgba(0, 0, 0, 0.31);">
+                            <div class="h-2/4 md:h-3/4 lg:h-2/4 px-5 md:px-10 flex flex-col items-center">
+                                <img src="@php echo get_template_directory_uri(); @endphp/assets/images/icons/horizontal-orange-long-bar.svg;"
+                                class="mx-auto">
+                                <p class="text-white my-1 md:my-4">“They’re change my life and brought balance, freedom and some sanity to may business.”</p>
+                                <span class="text-white my-4">GORDON SMITH - CEO AT BUSINES NAME</span>
+                                <div class="flex justify-center mt-2 md:mt-4">
+                                    <a class="customers-slider-control" href="#customers-slide-1">
+                                        <div class="mx-2 text-red">
+                                            <svg width="11" height="11" viewBox="0 0 11 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <circle cx="5.5" cy="5.5" r="5.5" fill="#C4C4C4"/>
+                                            </svg>
+                                        </div>
+                                    </a>
+                                    <a class="services-slider-control" href="#customers-slide-2">
+                                        <div class="mx-2 text-red">
+                                            <svg width="11" height="11" viewBox="0 0 11 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <circle cx="5.5" cy="5.5" r="5.5" fill="#C4C4C4"/>
+                                            </svg>
+                                        </div>
+                                    </a>
+                                    <a class="services-slider-control" href="#customers-slide-3">
+                                        <div class="mx-2 text-red">
+                                            <svg width="11" height="11" viewBox="0 0 11 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <circle cx="5.5" cy="5.5" r="5.5" fill="#FF664D"/>
+                                            </svg>
+                                        </div>
+                                    </a>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -454,25 +582,27 @@
     </div>
 
     <div class="section front-page-section">
-        <div class="grid grid-cols-1 md:grid-cols-6 gap-5 pt-28 pb-4">
-            <div class="m-auto">
-                <img src="@php echo get_template_directory_uri(); @endphp/assets/images/icons/partners/dvsv3-logo 1.png');" alt="">
-            </div>
-            <div class="m-auto hidden md:block">
-                <img src="@php echo get_template_directory_uri(); @endphp/assets/images/icons/partners/image 5.png');" alt="">
-            </div>
-            <div class="m-auto hidden md:block">
-                <img src="@php echo get_template_directory_uri(); @endphp/assets/images/icons/partners/image 6.png');" alt="">
-            </div>
-            <div class="m-auto hidden md:block">
-                <img src="@php echo get_template_directory_uri(); @endphp/assets/images/icons/partners/image 7.png');" alt="">
-            </div>
-            <div class="m-auto hidden md:block">
-                <img src="@php echo get_template_directory_uri(); @endphp/assets/images/icons/partners/image 8.png');" alt="">
-            </div>
-            <div class="m-auto hidden md:block">
-                <img src="@php echo get_template_directory_uri(); @endphp/assets/images/icons/partners/image 9.png');" alt="">
-            </div>
+        <div class="md:grid md:grid-cols-6 gap-5 pt-12 md:pt-16 pb-4 partners-slider">
+            
+                <div class="m-auto partners-slider-item">
+                    <img class="mx-auto" src="@php echo get_template_directory_uri(); @endphp/assets/images/icons/partners/dvsv3-logo 1.png');" alt="">
+                </div>
+                <div class="m-auto partners-slider-item">
+                    <img class="mx-auto" src="@php echo get_template_directory_uri(); @endphp/assets/images/icons/partners/image 5.png');" alt="">
+                </div>
+                <div class="m-auto partners-slider-item">
+                    <img class="mx-auto" src="@php echo get_template_directory_uri(); @endphp/assets/images/icons/partners/image 6.png');" alt="">
+                </div>
+                <div class="m-auto partners-slider-item">
+                    <img class="mx-auto" src="@php echo get_template_directory_uri(); @endphp/assets/images/icons/partners/image 7.png');" alt="">
+                </div>
+                <div class="m-auto partners-slider-item">
+                    <img class="mx-auto" src="@php echo get_template_directory_uri(); @endphp/assets/images/icons/partners/image 8.png');" alt="">
+                </div>
+                <div class="m-auto partners-slider-item">
+                    <img class="mx-auto" src="@php echo get_template_directory_uri(); @endphp/assets/images/icons/partners/image 9.png');" alt="">
+                </div>
+
         </div>
     </div>
 
