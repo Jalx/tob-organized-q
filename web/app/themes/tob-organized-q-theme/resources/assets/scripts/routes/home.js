@@ -6,16 +6,21 @@ export default {
             sections.forEach(section => {
                 if (section.isIntersecting) {
                     section.target.classList.add('section-animation');
-                } else {
-                    
-                    console.log(section);
-                    console.log('no');
                 }
             });
         });
         sections.forEach(section => {
             observer.observe(section);
         });
+
+        $('.services-slider-control').click(
+            function() {
+                $('.services-slider-control').removeClass('services-slider-control-active');
+                $(this).addClass('services-slider-control-active');
+            }
+        )
+
+
     },
     finalize() {
         // JavaScript to be fired on the home page, after the init JS
