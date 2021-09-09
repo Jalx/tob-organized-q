@@ -340,6 +340,12 @@
 }
 
 @media (prefers-reduced-motion: no-preference) {
+	.animation-grow {
+		animation: grow-out 800ms;
+		
+	}
+}
+@media (prefers-reduced-motion: no-preference) {
 	.section-animation {
 		animation: fade-enter 800ms;
 		

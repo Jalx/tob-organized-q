@@ -18,7 +18,19 @@ export default {
                 $('.services-slider-control').removeClass('services-slider-control-active');
                 $(this).addClass('services-slider-control-active');
             }
-        )
+        );
+
+        var animates = document.querySelectorAll('.animate');
+        const animatesObserver = new IntersectionObserver((animates) => {
+            animates.forEach(animate => {
+                if (animate.isIntersecting) {
+                    animate.target.classList.add(animate.target.dataset['animation']);
+                }
+            });
+        });
+        animates.forEach(animate => {
+            animatesObserver.observe(animate);
+        });
 
 
     },
