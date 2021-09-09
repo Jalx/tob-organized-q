@@ -69,6 +69,13 @@
 	}
 }
 
+.custom-logo-link:hover {
+	border: none;
+}
+.custom-logo-link:hover img {
+	border: none;
+}
+
 // Menu
 .menu-item a {
 	text-decoration: none;
