@@ -16,10 +16,14 @@
 }
 
 .card-services {
-    min-width: 197px;
-    min-height: 149px;
-    box-shadow: 0px 0px 20px 0px rgba(250, 236, 235, 1);
-    @apply flex items-center justify-center text-center;
+    width: 197px;
+    height: 149px;
+    border-radius: 4px;
+    box-shadow: 0px 0px 20px #FAECEB;
+    @apply flex items-center justify-center text-center bg-white mb-5 uppercase px-4;
+    @screen md {
+
+    }
 }
 
 .card-customer-result {
