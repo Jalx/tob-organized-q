@@ -116,7 +116,7 @@
             <div class="flex col-span-8 col-start-3">
                 <div class="md:grid  md:grid-cols-1 xl:grid-cols-1 gap-5 gap-y-6 w-full services-slider">
                     <div class="flex flex-col md:flex-row services-slider-item" id="services-slide-1">
-                        <div class="card-services mx-auto">
+                        <div class="card-services mx-auto animate" data-animation="animation-grow">
                             <div>
                                 <img
                                     src="@php echo get_template_directory_uri(); @endphp/assets/images/icons/management.svg"
@@ -125,7 +125,7 @@
                                 <span>Calendar Management</span>
                             </div>
                         </div>
-                        <div class="card-services mx-auto">
+                        <div class="card-services mx-auto animate" data-animation="animation-grow">
                             <div>
                                 <img
                                     src="@php echo get_template_directory_uri(); @endphp/assets/images/icons/email-management.svg"
@@ -134,7 +134,7 @@
                                 <span>Email Management</span>
                             </div>
                         </div>
-                        <div class="card-services mx-auto">
+                        <div class="card-services mx-auto animate" data-animation="animation-grow">
                             <div>
                                 <img
                                     src="@php echo get_template_directory_uri(); @endphp/assets/images/icons/scheduling.svg"
@@ -145,7 +145,7 @@
                         </div>
                     </div>
                     <div class="flex flex-col md:flex-row services-slider-item" id="services-slide-2">
-                        <div class="card-services mx-auto">
+                        <div class="card-services mx-auto animate" data-animation="animation-grow">
                             <div>
                                 <img
                                     src="@php echo get_template_directory_uri(); @endphp/assets/images/icons/social-media-management.svg"
@@ -154,7 +154,7 @@
                                 <span>Social Media Management</span>
                             </div>
                         </div>
-                        <div class="card-services mx-auto">
+                        <div class="card-services mx-auto animate" data-animation="animation-grow">
                             <div>
                                 <img
                                     src="@php echo get_template_directory_uri(); @endphp/assets/images/icons/digital-file-organization.svg"
@@ -163,7 +163,7 @@
                                 <span>Digital File Organization</span>
                             </div>
                         </div>
-                        <div class="card-services mx-auto">
+                        <div class="card-services mx-auto animate" data-animation="animation-grow">
                             <div>
                                 <img
                                         src="@php echo get_template_directory_uri(); @endphp/assets/images/icons/quickbooks-setup.svg"
@@ -174,7 +174,7 @@
                         </div>
                     </div>
                     <div class="flex flex-col md:flex-row services-slider-item" id="services-slide-3">
-                        <div class="card-services mx-auto">
+                        <div class="card-services mx-auto animate" data-animation="animation-grow">
                             <div>
                                 <img
                                 src="@php echo get_template_directory_uri(); @endphp/assets/images/icons/editing.svg"
@@ -183,7 +183,7 @@
                                 <span>Editing</span>
                             </div>
                         </div>
-                        <div class="card-services mx-auto">
+                        <div class="card-services mx-auto animate" data-animation="animation-grow">
                             <div>
                                 <img
                                     src="@php echo get_template_directory_uri(); @endphp/assets/images/icons/blog-writing.svg"
@@ -192,7 +192,7 @@
                                 <span>Blog Writing</span>
                             </div>
                         </div>
-                        <div class="card-services mx-auto">
+                        <div class="card-services mx-auto animate" data-animation="animation-grow">
                             <div>
                                 <img
                                     src="@php echo get_template_directory_uri(); @endphp/assets/images/icons/crm-setup.svg"
@@ -203,7 +203,7 @@
                         </div>
                     </div>
                     <div class="flex flex-col md:flex-row services-slider-item" id="services-slide-4">
-                        <div class="card-services mx-auto">
+                        <div class="card-services mx-auto animate" data-animation="animation-grow">
                             <div>
                                 <img
                                     src="@php echo get_template_directory_uri(); @endphp/assets/images/icons/project-management.svg"
@@ -212,7 +212,7 @@
                                 <span>Project Management</span>
                             </div>
                         </div>
-                        <div class="card-services mx-auto">
+                        <div class="card-services mx-auto animate" data-animation="animation-grow">
                             <div>
                                 <img
                                     src="@php echo get_template_directory_uri(); @endphp/assets/images/icons/subject-matter-experts.svg"
@@ -221,7 +221,7 @@
                                 <span>Subject Matter Experts</span>
                             </div>
                         </div>
-                        <div class="card-services mx-auto">
+                        <div class="card-services mx-auto animate" data-animation="animation-grow">
                             <div>
                                 <img
                                     src="@php echo get_template_directory_uri(); @endphp/assets/images/icons/ad-hoc-project-work.svg"
