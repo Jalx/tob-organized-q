@@ -22,7 +22,7 @@
                 >
                     <img class="" src="@php echo get_template_directory_uri(); @endphp/assets/images/icons/menu.svg" alt="menu">
                 </button>
-                <div x-cloak :class="menuOpen ? 'z-50 h-screen md:flex bg-black top-0 left-0 fixed menu-animation' : 'z-50 hidden md:flex menu-animation-out'" style="z-index: 100;">
+                <div x-cloak :class="menuOpen ? 'z-50 h-screen md:flex bg-black top-0 left-0 fixed menu-animation q-menu' : 'z-50 hidden md:flex menu-animation-out q-menu'" style="z-index: 100;">
                     <div class="flex justify-between md:hidden my-6 px-10">
                         <a class="brand" href="{{ home_url('/') }}"
                             aria-label="{{ get_bloginfo('name', 'display') }}"
