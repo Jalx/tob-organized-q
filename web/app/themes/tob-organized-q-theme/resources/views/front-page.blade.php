@@ -62,7 +62,7 @@
                         <h2 class="front-page-section-header text-center md:text-left">Government Services<span class="front-page-section-header-tomato">.</span> </h2>
                         <p class="front-page-section-subtitle text-center md:text-left  ">Planning for the future:</p>
                         <p class="front-page-section-copy text-center md:text-left  ">Landmark reforms to speed up and modernise the planning system and get the country building.</p>
-                        <a href="#" class="btn-cta ml-auto mr-auto md:ml-0 md:mr-0 mt-7 mb-5 md:mt-1 md:mb-1">Call To Action</a>
+                        <a href="#" class="btn-cta ml-auto mr-auto md:ml-0 md:mr-0 mt-7 mb-5 md:mt-7 md:mb-1">Call To Action</a>
                     </div>
                 </div>
             </div>
@@ -280,7 +280,7 @@
             </div>
         </div>
         <div class="grid grid-cols-12 gap-5">
-            <div class="col-span-10 col-start-2 md:col-span-6 xl:col-span-5 xl:col-start-2 text-center">
+            <div class="col-span-10 col-start-2 md:col-span-6 xl:col-span-5 xl:col-start-2 text-center animate" data-animation="grow">
                 <div class="customers-slider">
                     <div class="card-customer-result-img relative customers-slider-item" id="customers-slide-1">
                         <img class="object-cover" src="@php echo get_template_directory_uri(); @endphp/assets/images/gordon-smith.png;">
@@ -386,7 +386,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-span-10 col-start-2 md:col-span-6 xl:col-span-5 xl-center">
+            <div class="col-span-10 col-start-2 md:col-span-6 xl:col-span-5 xl-center animate" data-animation="grow">
                 <div class="card-customer-result card-customer-result-info px-3 md:px-4 xl:px-5">
                     <p
                         style="border-bottom: 3px solid white; padding-bottom: 14px;">We are dedicated to providing flexible professional opportunities for other military spouses and family members
@@ -510,7 +510,7 @@
 
     <div class="section front-page-section mt-24 mb-24 md:mb-0">
         <div class="grid grid-cols-12 md:grid-cols-8 md:gap-5">
-            <div class="animate text-left col-span-10 col-start-2 md:col-span-2 md:col-start-3 lg:col-start-3 xl:col-start-3 xxl:col-span-2 mb-10">
+            <div class="animate text-left col-span-10 col-start-2 md:col-span-2 md:col-start-3 lg:col-start-3 xl:col-start-3 xxl:col-span-2 mb-10" data-animation="grow">
                 <img
                     src="@php echo get_template_directory_uri(); @endphp/assets/images/building.png"
                     class="w-full md:mx-auto mb-5"
@@ -522,7 +522,7 @@
                 <h3 class="my-3 front-page-section-subtitle">Based in the US</h3>
                 <p class="copy">To provide high-level virtual executive assistance to executives</p>
             </div>
-            <div class="animate text-left col-span-10 col-start-2 md:col-span-2 mb-10" data-animation="animation-grow">
+            <div class="animate text-left col-span-10 col-start-2 md:col-span-2 mb-10" data-animation="grow">
                 <img
                     src="@php echo get_template_directory_uri(); @endphp/assets/images/remote.png"
                     class="w-full md:mx-auto mb-5"
@@ -534,7 +534,7 @@
                 <h3 class="my-3 front-page-section-subtitle">Completely Remote</h3>
                 <p class="copy">To provide high-level virtual executive assistance to executives</p>
             </div>
-            <div class="animate text-left col-span-10 col-start-2 md:col-span-2 md:col-start-3 lg:col-start-3 xl:col-start-3 xxl:col-span-2 mb-10" data-animation="animation-grow">
+            <div class="animate text-left col-span-10 col-start-2 md:col-span-2 md:col-start-3 lg:col-start-3 xl:col-start-3 xxl:col-span-2 mb-10" data-animation="grow">
                 <img
                     src="@php echo get_template_directory_uri(); @endphp/assets/images/spouses.png"
                     class="w-full md:mx-auto mb-5"
@@ -546,7 +546,7 @@
                 <h3 class="my-3 front-page-section-subtitle">Support Military Spouses</h3>
                 <p class="copy">To provide high-level virtual executive assistance to executives</p>
             </div>
-            <div class="animate text-left col-span-10 col-start-2 md:col-span-2 mb-10" data-animation="animation-grow">
+            <div class="animate text-left col-span-10 col-start-2 md:col-span-2 mb-10" data-animation="grow">
                 <img
                     src="@php echo get_template_directory_uri(); @endphp/assets/images/award-winning.png"
                     class="w-full md:mx-auto mb-5"
