@@ -1,6 +1,6 @@
 <header class="banner section">
-    <div class="w-full absolute">
-        <nav class="nav-primary z-50 mt-6">
+    <div class="w-full absolute pt-6" id="organized-q-header" >
+        <nav class="nav-primary z-50">
             <div class="flex justify-between mx-7 md:mx-1" x-data="{menuOpen:false}">
                 <div class="z-50 the-logo">
                     <a class="brand" href="{{ home_url('/') }}"

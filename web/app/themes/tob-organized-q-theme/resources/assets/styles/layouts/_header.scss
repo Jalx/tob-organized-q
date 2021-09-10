@@ -32,6 +32,21 @@
 	}
 }
 
+.fixed-navbar {
+	z-index: 100;
+	.nav-primary {
+		margin-top: 0px;
+	}
+}
+
+.menu-primary-container {
+	@apply flex items-center;
+}
+
+#organized-q-header {
+	transition: background-color 350ms linear, position 350ms;
+}
+
 .site-header {
 	top: 0;
 	left: 0;
